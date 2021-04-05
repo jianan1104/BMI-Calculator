@@ -1,0 +1,209 @@
+@import "reset";
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+
+body {
+    font-family: ‘cwTeXYen’, sans-serif;
+    
+}
+
+.wraaper{
+    background-color: rgba(238, 238, 238, 0.418);
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header{
+    height: 300px;
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #424242;
+    position: relative;
+    .logo{
+        position: absolute;
+        left: 173px;
+        bottom: 91px;
+    }
+    .type-text{
+        position: absolute;
+        font-size: 32px;
+        left: 829px;
+        bottom: 131px;
+        color: white;
+    }
+    .restart{
+        position: absolute;
+        left: 781px;
+        bottom: 94px;
+        width: 30px;
+        height: 30px;
+        border: 3px solid #424242;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .good{
+        background: #86D73E;
+    }
+    .thin{
+        background: #31BAF9;
+    }
+    .fat{
+        background: #FF982D;
+    }
+    .over-fat-1{
+        background: #FF6C02;
+    }
+    .over-fat-2{
+        background: #FF6C02;
+    }
+    .over-fat-3{
+        background: #FF1200;
+    }
+    .result-btn{
+        input{
+            color: white;
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            right: 214px;
+            bottom: 88px;
+            border-radius: 50%;
+            font-size: 24px;
+            outline: none;
+            border: none;
+            
+        }
+        .normal{
+            background: #FFD366;
+            &:hover{
+                box-shadow: 0 1px 6px 3px rgba(255,195,49,0.64);
+            }
+            &:active{
+                background: #DEA921;
+            }
+        }
+        .result{
+            background-color: #424242;
+            font-size: 32px;
+        }
+        .good{
+            border: 6px solid #86D73E;
+            color: #86D73E;
+        }
+        .thin{
+            border: 6px solid #31BAF9;
+            color: #31BAF9;
+        }
+        .fat{
+            border: 6px solid #FF982D;
+            color: #FF982D;
+        }
+        .over-fat-1{
+            border: 6px solid #FF6C02;
+            color: #FF6C02;
+        }
+        .over-fat-2{
+            border: 6px solid #FF6C02;
+            color: #FF6C02;
+        }
+        .over-fat-3{
+            border: 6px solid #FF1200;
+            color: #FF1200;
+        }
+    }
+    
+    .input-area{
+        position: absolute;
+        top: 74px;
+        left: 384px;
+        p{
+            font-size: 18px;
+            color: #FFD366;
+            margin-bottom: 7px;
+        }
+        input{
+            padding-left: 16px;
+            font-size: 24px;
+            color: white;
+            width: 250px;
+            height: 40px;
+            background: rgba(255,255,255,0.18);
+            border: 2px solid #FFD366;
+            border-radius: 10px;
+            margin-bottom: 23px;
+        }
+    }
+}
+
+.content{
+    width: 1024px;
+    margin: 0 auto;
+    
+    h2{
+        text-align: center;
+        font-size: 24px;
+        margin-top: 48px;
+        margin-bottom: 36px;
+    }
+    .result-list{
+        padding: 0 200px;
+        .bmi-card{
+            width: 624px;
+            height: 62px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 12px;
+            margin-bottom: 16px;
+            h3{
+                font-size: 20px;
+                width: 80px;
+            }
+            h4{
+                font-size: 12px;
+                margin-right: 7px;
+            }
+            .item{
+                display: flex;
+                align-items: center;
+                
+            }
+        }
+        .good{
+            border-left: 7px solid #86D73F;
+        }
+        .thin{
+            border-left: 7px solid #31BAF9;
+        }
+        .fat{
+            border-left: 7px solid #FF982D;
+        }
+        .over-fat-1{
+            border-left: 7px solid #FF6C02;
+        }
+        .over-fat-2{
+            border-left: 7px solid #FF6C02;
+        }
+        .over-fat-3{
+            border-left: 7px solid #FF1200;
+        }
+    }
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFD366;
+    margin: 0 auto;
+    width: 1024px;
+    height: 90px;
+    margin-top: 74px;
+    img{
+        height: 55px;
+        filter: brightness(0%);
+    }
+}

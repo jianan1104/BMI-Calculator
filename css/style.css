@@ -1,0 +1,306 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: ‘cwTeXYen’, sans-serif;
+}
+
+.wraaper {
+  background-color: rgba(238, 238, 238, 0.418);
+  width: 1024px;
+  margin: 0 auto;
+}
+
+header {
+  height: 300px;
+  width: 1024px;
+  margin: 0 auto;
+  background-color: #424242;
+  position: relative;
+}
+
+header .logo {
+  position: absolute;
+  left: 173px;
+  bottom: 91px;
+}
+
+header .type-text {
+  position: absolute;
+  font-size: 32px;
+  left: 829px;
+  bottom: 131px;
+  color: white;
+}
+
+header .restart {
+  position: absolute;
+  left: 781px;
+  bottom: 94px;
+  width: 30px;
+  height: 30px;
+  border: 3px solid #424242;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .good {
+  background: #86D73E;
+}
+
+header .thin {
+  background: #31BAF9;
+}
+
+header .fat {
+  background: #FF982D;
+}
+
+header .over-fat-1 {
+  background: #FF6C02;
+}
+
+header .over-fat-2 {
+  background: #FF6C02;
+}
+
+header .over-fat-3 {
+  background: #FF1200;
+}
+
+header .result-btn input {
+  color: white;
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  right: 214px;
+  bottom: 88px;
+  border-radius: 50%;
+  font-size: 24px;
+  outline: none;
+  border: none;
+}
+
+header .result-btn .normal {
+  background: #FFD366;
+}
+
+header .result-btn .normal:hover {
+  -webkit-box-shadow: 0 1px 6px 3px rgba(255, 195, 49, 0.64);
+          box-shadow: 0 1px 6px 3px rgba(255, 195, 49, 0.64);
+}
+
+header .result-btn .normal:active {
+  background: #DEA921;
+}
+
+header .result-btn .result {
+  background-color: #424242;
+  font-size: 32px;
+}
+
+header .result-btn .good {
+  border: 6px solid #86D73E;
+  color: #86D73E;
+}
+
+header .result-btn .thin {
+  border: 6px solid #31BAF9;
+  color: #31BAF9;
+}
+
+header .result-btn .fat {
+  border: 6px solid #FF982D;
+  color: #FF982D;
+}
+
+header .result-btn .over-fat-1 {
+  border: 6px solid #FF6C02;
+  color: #FF6C02;
+}
+
+header .result-btn .over-fat-2 {
+  border: 6px solid #FF6C02;
+  color: #FF6C02;
+}
+
+header .result-btn .over-fat-3 {
+  border: 6px solid #FF1200;
+  color: #FF1200;
+}
+
+header .input-area {
+  position: absolute;
+  top: 74px;
+  left: 384px;
+}
+
+header .input-area p {
+  font-size: 18px;
+  color: #FFD366;
+  margin-bottom: 7px;
+}
+
+header .input-area input {
+  padding-left: 16px;
+  font-size: 24px;
+  color: white;
+  width: 250px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.18);
+  border: 2px solid #FFD366;
+  border-radius: 10px;
+  margin-bottom: 23px;
+}
+
+.content {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.content h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 48px;
+  margin-bottom: 36px;
+}
+
+.content .result-list {
+  padding: 0 200px;
+}
+
+.content .result-list .bmi-card {
+  width: 624px;
+  height: 62px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 12px;
+  margin-bottom: 16px;
+}
+
+.content .result-list .bmi-card h3 {
+  font-size: 20px;
+  width: 80px;
+}
+
+.content .result-list .bmi-card h4 {
+  font-size: 12px;
+  margin-right: 7px;
+}
+
+.content .result-list .bmi-card .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .result-list .good {
+  border-left: 7px solid #86D73F;
+}
+
+.content .result-list .thin {
+  border-left: 7px solid #31BAF9;
+}
+
+.content .result-list .fat {
+  border-left: 7px solid #FF982D;
+}
+
+.content .result-list .over-fat-1 {
+  border-left: 7px solid #FF6C02;
+}
+
+.content .result-list .over-fat-2 {
+  border-left: 7px solid #FF6C02;
+}
+
+.content .result-list .over-fat-3 {
+  border-left: 7px solid #FF1200;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #FFD366;
+  margin: 0 auto;
+  width: 1024px;
+  height: 90px;
+  margin-top: 74px;
+}
+
+footer img {
+  height: 55px;
+  -webkit-filter: brightness(0%);
+          filter: brightness(0%);
+}
+/*# sourceMappingURL=style.css.map */
