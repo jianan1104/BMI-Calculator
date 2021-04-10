@@ -111,6 +111,10 @@ header{
     }
     
     .input-area{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
         p{
             font-size: 18px;
             color: #FFD366;
@@ -120,7 +124,7 @@ header{
             padding-left: 16px;
             font-size: 24px;
             color: white;
-            width: 250px;
+            width: 95%;
             height: 40px;
             background: rgba(255,255,255,0.18);
             border: 2px solid #FFD366;
@@ -144,9 +148,8 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0% 5%;
         .bmi-card{
-            width: 61%;
-            //height: 62px;
             background-color: white;
             display: flex;
             align-items: center;

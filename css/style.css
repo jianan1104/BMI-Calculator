@@ -194,6 +194,20 @@ header .result-btn .over-fat-3 {
   color: #FF1200;
 }
 
+header .input-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
 header .input-area p {
   font-size: 18px;
   color: #FFD366;
@@ -204,7 +218,7 @@ header .input-area input {
   padding-left: 16px;
   font-size: 24px;
   color: white;
-  width: 250px;
+  width: 95%;
   height: 40px;
   background: rgba(255, 255, 255, 0.18);
   border: 2px solid #FFD366;
@@ -234,10 +248,10 @@ header .input-area input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0% 5%;
 }
 
 .content .result-list .bmi-card {
-  width: 61%;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
