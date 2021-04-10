@@ -18,16 +18,9 @@ header{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 10% 0;
+    padding: 13% 0;
     margin: 0 auto;
     background-color: #424242;
-    .type-text{
-        position: absolute;
-        font-size: 32px;
-        left: 829px;
-        bottom: 131px;
-        color: white;
-    }
     
     .good{
         background: #86D73E;
@@ -70,6 +63,14 @@ header{
             display: flex;
             align-items: center;
             justify-content: center;
+            
+        }
+        .type-text{
+            position: absolute;
+            font-size: 32px;
+            left: 25%;
+            bottom: -35%;
+            color: white;
         }
         .normal{
             background: #FFD366;

@@ -76,17 +76,9 @@ header {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 10% 0;
+  padding: 13% 0;
   margin: 0 auto;
   background-color: #424242;
-}
-
-header .type-text {
-  position: absolute;
-  font-size: 32px;
-  left: 829px;
-  bottom: 131px;
-  color: white;
 }
 
 header .good {
@@ -144,6 +136,14 @@ header .result-btn .restart {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+header .result-btn .type-text {
+  position: absolute;
+  font-size: 32px;
+  left: 25%;
+  bottom: -35%;
+  color: white;
 }
 
 header .result-btn .normal {

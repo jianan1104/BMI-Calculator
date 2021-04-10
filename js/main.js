@@ -36,6 +36,7 @@ function result(e){
     var restart = document.createElement('div');
     var resultdiv = document.querySelector('.result-btn');
 
+
     typeText.className = 'type-text';
     restart.className = 'restart ' + TypeList[data.STATUS];
     typeText.textContent = data.TYPE;
