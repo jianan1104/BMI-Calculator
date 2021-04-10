@@ -9,18 +9,21 @@ body {
 
 .wraaper{
     background-color: rgba(238, 238, 238, 0.418);
-    max-width: 1024px;
+    width: 1024px;
     margin: 0 auto;
 }
 
 header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 10% 0;
+    height: 300px;
+    width: 1024px;
     margin: 0 auto;
     background-color: #424242;
+    position: relative;
+    .logo{
+        position: absolute;
+        left: 173px;
+        bottom: 91px;
+    }
     .type-text{
         position: absolute;
         font-size: 32px;
@@ -28,7 +31,18 @@ header{
         bottom: 131px;
         color: white;
     }
-    
+    .restart{
+        position: absolute;
+        left: 781px;
+        bottom: 94px;
+        width: 30px;
+        height: 30px;
+        border: 3px solid #424242;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .good{
         background: #86D73E;
     }
@@ -48,28 +62,18 @@ header{
         background: #FF1200;
     }
     .result-btn{
-        position: relative;
         input{
             color: white;
+            position: absolute;
             width: 120px;
             height: 120px;
+            right: 214px;
+            bottom: 88px;
             border-radius: 50%;
             font-size: 24px;
             outline: none;
             border: none;
             
-        }
-        .restart{
-            position: absolute;
-            left: 93px;
-            top: 87px;
-            width: 30px;
-            height: 30px;
-            border: 3px solid #424242;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
         .normal{
             background: #FFD366;
@@ -111,6 +115,9 @@ header{
     }
     
     .input-area{
+        position: absolute;
+        top: 74px;
+        left: 384px;
         p{
             font-size: 18px;
             color: #FFD366;
@@ -131,7 +138,7 @@ header{
 }
 
 .content{
-    //width: 1024px;
+    width: 1024px;
     margin: 0 auto;
     
     h2{
@@ -141,18 +148,15 @@ header{
         margin-bottom: 36px;
     }
     .result-list{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        padding: 0 200px;
         .bmi-card{
-            width: 61%;
-            //height: 62px;
+            width: 624px;
+            height: 62px;
             background-color: white;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            flex-wrap: wrap;
-            padding: 12px 12px;
+            padding: 0 12px;
             margin-bottom: 16px;
             h3{
                 font-size: 20px;
@@ -195,7 +199,7 @@ footer{
     justify-content: center;
     background: #FFD366;
     margin: 0 auto;
-    //width: 1024px;
+    width: 1024px;
     height: 90px;
     margin-top: 74px;
     img{

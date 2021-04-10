@@ -34,7 +34,7 @@ function result(e){
     var typeText = document.createElement('h2');
     var img = document.createElement('img');
     var restart = document.createElement('div');
-    var header = document.querySelector('header');
+    var resultdiv = document.querySelector('.result-btn');
 
     typeText.className = 'type-text';
     restart.className = 'restart ' + TypeList[data.STATUS];
@@ -42,7 +42,7 @@ function result(e){
     img.src = 'asserts/icons_loop.png';
     
     restart.appendChild(img);
-    header.innerHTML += restart.outerHTML + typeText.outerHTML;
+    resultdiv.innerHTML += restart.outerHTML + typeText.outerHTML;
 
     restartBtn = document.querySelector('.restart');
     restartBtn.addEventListener('click', refresh);

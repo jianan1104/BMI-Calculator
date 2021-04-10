@@ -61,24 +61,22 @@ body {
 
 .wraaper {
   background-color: rgba(238, 238, 238, 0.418);
-  max-width: 1024px;
+  width: 1024px;
   margin: 0 auto;
 }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding: 10% 0;
+  height: 300px;
+  width: 1024px;
   margin: 0 auto;
   background-color: #424242;
+  position: relative;
+}
+
+header .logo {
+  position: absolute;
+  left: 173px;
+  bottom: 91px;
 }
 
 header .type-text {
@@ -87,6 +85,25 @@ header .type-text {
   left: 829px;
   bottom: 131px;
   color: white;
+}
+
+header .restart {
+  position: absolute;
+  left: 781px;
+  bottom: 94px;
+  width: 30px;
+  height: 30px;
+  border: 3px solid #424242;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 header .good {
@@ -113,37 +130,17 @@ header .over-fat-3 {
   background: #FF1200;
 }
 
-header .result-btn {
-  position: relative;
-}
-
 header .result-btn input {
   color: white;
+  position: absolute;
   width: 120px;
   height: 120px;
+  right: 214px;
+  bottom: 88px;
   border-radius: 50%;
   font-size: 24px;
   outline: none;
   border: none;
-}
-
-header .result-btn .restart {
-  position: absolute;
-  left: 93px;
-  top: 87px;
-  width: 30px;
-  height: 30px;
-  border: 3px solid #424242;
-  border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 header .result-btn .normal {
@@ -194,6 +191,12 @@ header .result-btn .over-fat-3 {
   color: #FF1200;
 }
 
+header .input-area {
+  position: absolute;
+  top: 74px;
+  left: 384px;
+}
+
 header .input-area p {
   font-size: 18px;
   color: #FFD366;
@@ -213,6 +216,7 @@ header .input-area input {
 }
 
 .content {
+  width: 1024px;
   margin: 0 auto;
 }
 
@@ -224,20 +228,12 @@ header .input-area input {
 }
 
 .content .result-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  padding: 0 200px;
 }
 
 .content .result-list .bmi-card {
-  width: 61%;
+  width: 624px;
+  height: 62px;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -248,9 +244,7 @@ header .input-area input {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding: 12px 12px;
+  padding: 0 12px;
   margin-bottom: 16px;
 }
 
@@ -309,6 +303,7 @@ footer {
           justify-content: center;
   background: #FFD366;
   margin: 0 auto;
+  width: 1024px;
   height: 90px;
   margin-top: 74px;
 }
@@ -318,4 +313,4 @@ footer img {
   -webkit-filter: brightness(0%);
           filter: brightness(0%);
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style copy.css.map */
